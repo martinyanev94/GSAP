@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+img {
+    position: absolute;
+    cursor: pointer;
+}
+
+#container {
+    position: absolute;
+    width: 768px;
+    height: 485px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.circle {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	right: -400px;
+	bottom: -100px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
